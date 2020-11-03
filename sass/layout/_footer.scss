@@ -1,0 +1,122 @@
+footer {
+  background-color: $black-font-color;
+}
+.footer-div {
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  @media screen and (min-width: 1200px) {
+    display: flex;
+  }
+
+  .logo {
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+}
+.footer-nav {
+  @media screen and (max-width: 1199px) {
+    padding-bottom: 60px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-right: 70px;
+  }
+}
+.dark-theme {
+  color: $primary-white-color;
+}
+.footer-div-link {
+  padding-top: 10px;
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    padding-top: 30px;
+  }
+}
+.footer-link {
+  color: $primary-white-color;
+
+  font-weight: 400;
+  line-height: 1.714;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}
+.footer-link-mail,
+.footer-link-tel {
+  color: rgba(255, 255, 255, 0.6);
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}
+
+.footer-description {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: $primary-white-color;
+  margin-bottom: 20px;
+  @media screen and (min-width: 1200px) {
+    text-align: left;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer-div-form {
+    margin-left: auto;
+    padding-top: 10px;
+  }
+  .footer-form {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.footer-form-email {
+  padding: 15px 16px;
+  width: 358px;
+  background-color: $black-font-color;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  margin-right: 12px;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+
+  &::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+  }
+}
+.footer-email-label {
+  display: block;
+  @media screen and (max-width: 1200px) {
+    margin-bottom: 20px;
+  }
+}
+.footer-nav-link {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    justify-content: space-between;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    padding: 0px 70px;
+  }
+  @media screen and (min-width: 1200px) {
+    text-align: left;
+  }
+}

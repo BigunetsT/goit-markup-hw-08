@@ -1,0 +1,50 @@
+@media screen and (max-width: 1199px) {
+  .projects-section {
+    display: none;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section-title {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .projects-section {
+    display: block;
+    padding-bottom: 94px;
+  }
+  .projects-list {
+    display: flex;
+  }
+  .projects-thumb {
+    position: relative;
+  }
+  .projects-thumb img {
+    display: block;
+  }
+  .projects-item:not(:last-child) {
+    margin-right: 30px;
+  }
+  .projects-name {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: rgba(47, 48, 58, 0.8);
+  }
+  .projects-name > p {
+    margin: 0;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: $primary-white-color;
+  }
+}

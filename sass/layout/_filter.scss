@@ -1,0 +1,22 @@
+.filter-section {
+  padding-top: 60px;
+}
+.filter {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+  @media screen and (min-width: 768px) {
+    justify-content: center;
+  }
+}
+
+.filter-item:not(:last-child) {
+  margin-right: 8px;
+}
+.filter-item {
+  margin-bottom: 15px;
+  &:last-child,
+  &:nth-last-child(2) {
+    margin-bottom: 0;
+  }
+}
