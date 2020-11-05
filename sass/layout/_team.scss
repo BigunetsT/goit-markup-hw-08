@@ -3,6 +3,7 @@
   padding-bottom: 60px;
   background-color: $button-color;
   text-align: center;
+  width: 100vw;
 }
 
 .team-item {
@@ -17,6 +18,9 @@
       margin-bottom: 30px;
     }
   }
+}
+.team-img {
+  width: 100%;
 }
 @media screen and (min-width: 768px) {
   .team-list {

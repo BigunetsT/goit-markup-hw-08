@@ -11,11 +11,19 @@
 }
 .hero-button {
   padding: 10px 32px;
+  min-width: 200px;
+
+  color: $primary-white-color;
+  background-color: $accent-color;
+
+  font-weight: 700;
+  line-height: 1.875;
+  letter-spacing: 0.06em;
 }
-.hero-button,
+
 .footer-button,
 .modal-button {
-  min-width: 200px;
+  width: 200px;
 
   color: $primary-white-color;
   background-color: $accent-color;
