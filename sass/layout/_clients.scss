@@ -2,7 +2,7 @@
   padding-top: 60px;
   padding-bottom: 60px;
   text-align: center;
-  width: 100vw;
+  width: 100%;
   @media screen and (min-width: 1200px) {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -11,7 +11,7 @@
 .client-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   margin: -15px;
 }

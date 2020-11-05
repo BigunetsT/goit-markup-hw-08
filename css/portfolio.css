@@ -23,7 +23,7 @@ body {
   font-style: normal;
   letter-spacing: 0.03em;
   font-size: 14px;
-  width: 100vw;
+  max-width: 100vw;
 }
 
 .list {
@@ -461,7 +461,7 @@ body {
 .filter-section {
   padding-top: 60px;
   padding-bottom: 60px;
-  width: 100vw;
+  width: 100%;
 }
 
 .filter {
@@ -556,7 +556,6 @@ body {
 
 .portfilio-img {
   width: 100%;
-  height: 100%;
 }
 
 .portfolio-overlay {
@@ -733,7 +732,7 @@ footer {
   display: block;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1199px) {
   .footer-email-label {
     margin-bottom: 20px;
   }
